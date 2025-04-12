@@ -1,44 +1,66 @@
-# JusticeLens Project
+# JusticeLens
 
-This is a web-based application that integrates interactive visualizations and API functionality for evaluating agents and reframing content, likely in an educational or research context.
+This is a web-based application project built with **Next.js** and **Tailwind CSS**. It is designed to visualize and analyze dissonance using radar charts and includes API endpoints for evaluating agents and reframing responses.
 
-## Features
+## 🚀 Features
 
-- Interactive radar dissonance chart visualization.
-- API endpoints for evaluating agents and reframing data.
-- Built using Next.js and Tailwind CSS for modern frontend development.
+- 📊 Dissonance Visualization using Radar Charts
+- 🧠 AI-Powered Agent Evaluation and Reframing
+- ⚡ Fast and Responsive UI with Tailwind CSS
+- 📁 Modular file structure with components and API routes
 
-## Technologies Used
+## 📦 Installation
 
-- **Next.js** – React framework for server-side rendering.
-- **Tailwind CSS** – Utility-first CSS framework.
-- **JavaScript** – Core programming language.
-- **PostCSS** – Tool for transforming CSS with JavaScript.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd enrs-ebrmlive-project
+   ```
 
-## Installation
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm install
-npm run dev
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+## 📂 Project Structure
+
 ```
-
-Navigate to `http://localhost:3000` to view the application.
-
-## Project Structure
-
-```
-├── components/                   # Reusable React components
-│   └── RadarDissonanceChart.js
-├── pages/                        # Pages and API routes
-│   ├── index.js
-│   └── api/
+enrs-ebrmlive-project/
+├── components/              # React components (e.g., RadarDissonanceChart)
+├── pages/                   # Next.js pages and API routes
+│   ├── index.js             # Home page
+│   └── api/                 # Backend API logic
 │       ├── evaluate-agents.js
 │       └── reframe.js
-├── package.json                  # Project metadata and dependencies
-├── postcss.config.js            # PostCSS configuration
-├── tailwind.config.js           # Tailwind CSS configuration
+├── package.json             # Project metadata and dependencies
+├── tailwind.config.js       # Tailwind CSS configuration
+├── postcss.config.js        # PostCSS configuration
 ```
 
-## License
+## 🛠️ Scripts
 
-This project is provided for educational and research use.
+- `npm run dev` - Start the development server
+- `npm run build` - Create a production build
+- `npm run start` - Start the production server
+
+## 🧰 Tech Stack
+
+- **Next.js** - React Framework for production
+- **Tailwind CSS** - Utility-first CSS framework
+- **Node.js** - Server-side JavaScript
+- **API Routes** - For AI-based backend logic
+
+
+---
+
+*Happy coding!* ✨
