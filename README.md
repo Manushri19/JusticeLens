@@ -1,4 +1,4 @@
-# ENRS EBRMLive Project
+# JusticeLens Project
 
 This is a web-based application that integrates interactive visualizations and API functionality for evaluating agents and reframing content, likely in an educational or research context.
 
